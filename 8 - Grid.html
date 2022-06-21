@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>Grid</title>
+</head>
+<body>
+
+    <!--É DIVIDIDA EM 12 COLUNAS-->
+
+    <h1>LINHAS</h1>
+    <!--LINHAS-->    
+    <div class="row"> <!--APENAS UMA LINHA-->
+        <div class="bg-info col">Col</div> <!--COL - COLUNA-->
+        <div class="bg-warning col-1">Col</div> <!--Col 1/12-->
+        <div class="bg-dark text-light col-5">Col</div> <!--Col 5/12-->
+        <div class="bg-success col">Col</div>
+        <div class="bg-warning col">Col</div>
+    </div> <br><br><br><br>
+
+
+    <h3>DIMINUI O TAMANHO QUANDO CHEGA "MD"</h3>
+
+    <div class="row">
+        <div class="bg-info col-md-3">Col</div> 
+        <div class="bg-warning col-md-3"">Col</div> 
+        <div class="bg-dark text-light col-md-3"">Col</div> 
+        <div class="bg-success col-md-3"">Col</div>
+    </div> <br><br><br><br>
+
+
+    <h3>OUTROS</h3>
+
+    <div class="row">
+        <div class="bg-info col-2">Col</div> <!--1/12-->
+        <div class="bg-warning col">Col</div> <!--6/12-->       
+        <div class="bg-dark text-light col-6">Col</div> <!--5/12-->
+    </div> <br><br><br><br>
+
+    <div class="row">
+        <div class="bg-info col">Col</div> <!--1/12-->
+        <div class="bg-warning col">Col</div> <!--6/12-->  
+        <div class="bg-dark text-light col">Col</div> <!--5/12-->
+    </div> <br><br><br><br>
+
+
+    <h3>NO CONTAINER</h3>
+
+    <div class="container">
+        <div class="row justify-content-between"> <!--PARA USAR FLEXBOX JUNTO-->
+            <div class="bg-info col-3">Col</div> <!--1/12-->
+            <div class="bg-warning col-3">Col</div> <!--6/12-->
+        
+        </div>
+    </div> <br><br><br><br>
+
+
+    <h1>COLUNAS</h1>
+
+    <!--COLUNAS-->
+    <div class="columm">
+        <div class="bg-info col">Col</div> <!--1/12-->
+        <div class="bg-warning col-6">Col</div> <!--6/12-->
+        <div class="bg-dark text-light col-5">Col</div> <!--5/12-->
+    </div>
+
+</body>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+</html>
